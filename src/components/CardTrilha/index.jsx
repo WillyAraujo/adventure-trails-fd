@@ -17,7 +17,7 @@ function CardTrilha({dadosTrilha}) {
     )
 }
 
-CardTrilha.PropTypes = {
+CardTrilha.propTypes = {
     dadosTrilha: PropTypes.exact({
         nomeTrilha: PropTypes.string.isRequired,
         cidade: PropTypes.string.isRequired,
